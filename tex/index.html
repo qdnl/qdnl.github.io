@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Zegar z Teleexpressu</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="zegar">
+            <!--TARCZA WSKAZUJĄCA SEKUNDY, litera a na końcu oznacza punkt wyświetlany stale-->
+            <div class="kropka kropka0a on"></div>
+            <div class="kropka kropka0 on" id="kropka0"></div>
+            <div class="kropka kropka1 on" id="kropka1"></div>
+            <div class="kropka kropka2 on" id="kropka2"></div>
+            <div class="kropka kropka3 on" id="kropka3"></div>
+            <div class="kropka kropka4 on" id="kropka4"></div>
+
+            <div class="kropka kropka5a on"></div>
+            <div class="kropka kropka5 on" id="kropka5"></div>
+            <div class="kropka kropka6 on" id="kropka6"></div>
+            <div class="kropka kropka7 on" id="kropka7"></div>
+            <div class="kropka kropka8 on" id="kropka8"></div>
+            <div class="kropka kropka9 on" id="kropka9"></div>
+
+            <div class="kropka kropka10a on"></div>
+            <div class="kropka kropka10 on" id="kropka10"></div>
+            <div class="kropka kropka11 on" id="kropka11"></div>
+            <div class="kropka kropka12 on" id="kropka12"></div>
+            <div class="kropka kropka13 on" id="kropka13"></div>
+            <div class="kropka kropka14 on" id="kropka14"></div>
+
+            <div class="kropka kropka15a on"></div>
+            <div class="kropka kropka15 on" id="kropka15"></div>
+            <div class="kropka kropka16 on" id="kropka16"></div>
+            <div class="kropka kropka17 on" id="kropka17"></div>
+            <div class="kropka kropka18 on" id="kropka18"></div>
+            <div class="kropka kropka19 on" id="kropka19"></div>
+
+            <div class="kropka kropka20a on"></div>
+            <div class="kropka kropka20 on" id="kropka20"></div>
+            <div class="kropka kropka21 on" id="kropka21"></div>
+            <div class="kropka kropka22 on" id="kropka22"></div>
+            <div class="kropka kropka23 on" id="kropka23"></div>
+            <div class="kropka kropka24 on" id="kropka24"></div>
+
+            <div class="kropka kropka25a on"></div>
+            <div class="kropka kropka25 on" id="kropka25"></div>
+            <div class="kropka kropka26 on" id="kropka26"></div>
+            <div class="kropka kropka27 on" id="kropka27"></div>
+            <div class="kropka kropka28 on" id="kropka28"></div>
+            <div class="kropka kropka29 on" id="kropka29"></div>
+
+            <div class="kropka kropka30a on"></div>
+            <div class="kropka kropka30 on" id="kropka30"></div>
+            <div class="kropka kropka31 on" id="kropka31"></div>
+            <div class="kropka kropka32 on" id="kropka32"></div>
+            <div class="kropka kropka33 on" id="kropka33"></div>
+            <div class="kropka kropka34 on" id="kropka34"></div>
+
+            <div class="kropka kropka35a on"></div>
+            <div class="kropka kropka35 on" id="kropka35"></div>
+            <div class="kropka kropka36 on" id="kropka36"></div>
+            <div class="kropka kropka37 on" id="kropka37"></div>
+            <div class="kropka kropka38 on" id="kropka38"></div>
+            <div class="kropka kropka39 on" id="kropka39"></div>
+
+            <div class="kropka kropka40a on"></div>
+            <div class="kropka kropka40 on" id="kropka40"></div>
+            <div class="kropka kropka41 on" id="kropka41"></div>
+            <div class="kropka kropka42 on" id="kropka42"></div>
+            <div class="kropka kropka43 on" id="kropka43"></div>
+            <div class="kropka kropka44 on" id="kropka44"></div>
+
+            <div class="kropka kropka45a on"></div>
+            <div class="kropka kropka45 on" id="kropka45"></div>
+            <div class="kropka kropka46 on" id="kropka46"></div>
+            <div class="kropka kropka47 on" id="kropka47"></div>
+            <div class="kropka kropka48 on" id="kropka48"></div>
+            <div class="kropka kropka49 on" id="kropka49"></div>
+
+            <div class="kropka kropka50a on"></div>
+            <div class="kropka kropka50 on" id="kropka50"></div>
+            <div class="kropka kropka51 on" id="kropka51"></div>
+            <div class="kropka kropka52 on" id="kropka52"></div>
+            <div class="kropka kropka53 on" id="kropka53"></div>
+            <div class="kropka kropka54 on" id="kropka54"></div>
+
+            <div class="kropka kropka55a on"></div>
+            <div class="kropka kropka55 on" id="kropka55"></div>
+            <div class="kropka kropka56 on" id="kropka56"></div>
+            <div class="kropka kropka57 on" id="kropka57"></div>
+            <div class="kropka kropka58 on" id="kropka58"></div>
+            <div class="kropka kropka59 on" id="kropka59"></div>
+
+            <!--ZEGAR CYFROWY - kodowanie: [numer cyfry]w[numer wiersza]k[numer kolumny]-->
+
+            <div class="kropka cyfra1w0k0 on" id="cyfra1w0k0"></div>
+            <div class="kropka cyfra1w0k1 on" id="cyfra1w0k1"></div>
+            <div class="kropka cyfra1w0k2 on" id="cyfra1w0k2"></div>
+            <div class="kropka cyfra1w0k3 on" id="cyfra1w0k3"></div>
+            <div class="kropka cyfra1w0k4 on" id="cyfra1w0k4"></div>
+
+            <div class="kropka cyfra1w1k0 on" id="cyfra1w1k0"></div>
+            <div class="kropka cyfra1w1k1 on" id="cyfra1w1k1"></div>
+            <div class="kropka cyfra1w1k2 on" id="cyfra1w1k2"></div>
+            <div class="kropka cyfra1w1k3 on" id="cyfra1w1k3"></div>
+            <div class="kropka cyfra1w1k4 on" id="cyfra1w1k4"></div>
+
+            <div class="kropka cyfra1w2k0 on" id="cyfra1w2k0"></div>
+            <div class="kropka cyfra1w2k1 on" id="cyfra1w2k1"></div>
+            <div class="kropka cyfra1w2k2 on" id="cyfra1w2k2"></div>
+            <div class="kropka cyfra1w2k3 on" id="cyfra1w2k3"></div>
+            <div class="kropka cyfra1w2k4 on" id="cyfra1w2k4"></div>
+
+            <div class="kropka cyfra1w3k0 on" id="cyfra1w3k0"></div>
+            <div class="kropka cyfra1w3k1 on" id="cyfra1w3k1"></div>
+            <div class="kropka cyfra1w3k2 on" id="cyfra1w3k2"></div>
+            <div class="kropka cyfra1w3k3 on" id="cyfra1w3k3"></div>
+            <div class="kropka cyfra1w3k4 on" id="cyfra1w3k4"></div>
+
+            <div class="kropka cyfra1w4k0 on" id="cyfra1w4k0"></div>
+            <div class="kropka cyfra1w4k1 on" id="cyfra1w4k1"></div>
+            <div class="kropka cyfra1w4k2 on" id="cyfra1w4k2"></div>
+            <div class="kropka cyfra1w4k3 on" id="cyfra1w4k3"></div>
+            <div class="kropka cyfra1w4k4 on" id="cyfra1w4k4"></div>
+
+            <div class="kropka cyfra1w5k0 on" id="cyfra1w5k0"></div>
+            <div class="kropka cyfra1w5k1 on" id="cyfra1w5k1"></div>
+            <div class="kropka cyfra1w5k2 on" id="cyfra1w5k2"></div>
+            <div class="kropka cyfra1w5k3 on" id="cyfra1w5k3"></div>
+            <div class="kropka cyfra1w5k4 on" id="cyfra1w5k4"></div>
+
+            <div class="kropka cyfra1w6k0 on" id="cyfra1w6k0"></div>
+            <div class="kropka cyfra1w6k1 on" id="cyfra1w6k1"></div>
+            <div class="kropka cyfra1w6k2 on" id="cyfra1w6k2"></div>
+            <div class="kropka cyfra1w6k3 on" id="cyfra1w6k3"></div>
+            <div class="kropka cyfra1w6k4 on" id="cyfra1w6k4"></div>
+
+            <div class="kropka cyfra2w0k0 on" id="cyfra2w0k0"></div>
+            <div class="kropka cyfra2w0k1 on" id="cyfra2w0k1"></div>
+            <div class="kropka cyfra2w0k2 on" id="cyfra2w0k2"></div>
+            <div class="kropka cyfra2w0k3 on" id="cyfra2w0k3"></div>
+            <div class="kropka cyfra2w0k4 on" id="cyfra2w0k4"></div>
+
+            <div class="kropka cyfra2w1k0 on" id="cyfra2w1k0"></div>
+            <div class="kropka cyfra2w1k1 on" id="cyfra2w1k1"></div>
+            <div class="kropka cyfra2w1k2 on" id="cyfra2w1k2"></div>
+            <div class="kropka cyfra2w1k3 on" id="cyfra2w1k3"></div>
+            <div class="kropka cyfra2w1k4 on" id="cyfra2w1k4"></div>
+
+            <div class="kropka cyfra2w2k0 on" id="cyfra2w2k0"></div>
+            <div class="kropka cyfra2w2k1 on" id="cyfra2w2k1"></div>
+            <div class="kropka cyfra2w2k2 on" id="cyfra2w2k2"></div>
+            <div class="kropka cyfra2w2k3 on" id="cyfra2w2k3"></div>
+            <div class="kropka cyfra2w2k4 on" id="cyfra2w2k4"></div>
+
+            <div class="kropka cyfra2w3k0 on" id="cyfra2w3k0"></div>
+            <div class="kropka cyfra2w3k1 on" id="cyfra2w3k1"></div>
+            <div class="kropka cyfra2w3k2 on" id="cyfra2w3k2"></div>
+            <div class="kropka cyfra2w3k3 on" id="cyfra2w3k3"></div>
+            <div class="kropka cyfra2w3k4 on" id="cyfra2w3k4"></div>
+
+            <div class="kropka cyfra2w4k0 on" id="cyfra2w4k0"></div>
+            <div class="kropka cyfra2w4k1 on" id="cyfra2w4k1"></div>
+            <div class="kropka cyfra2w4k2 on" id="cyfra2w4k2"></div>
+            <div class="kropka cyfra2w4k3 on" id="cyfra2w4k3"></div>
+            <div class="kropka cyfra2w4k4 on" id="cyfra2w4k4"></div>
+
+            <div class="kropka cyfra2w5k0 on" id="cyfra2w5k0"></div>
+            <div class="kropka cyfra2w5k1 on" id="cyfra2w5k1"></div>
+            <div class="kropka cyfra2w5k2 on" id="cyfra2w5k2"></div>
+            <div class="kropka cyfra2w5k3 on" id="cyfra2w5k3"></div>
+            <div class="kropka cyfra2w5k4 on" id="cyfra2w5k4"></div>
+
+            <div class="kropka cyfra2w6k0 on" id="cyfra2w6k0"></div>
+            <div class="kropka cyfra2w6k1 on" id="cyfra2w6k1"></div>
+            <div class="kropka cyfra2w6k2 on" id="cyfra2w6k2"></div>
+            <div class="kropka cyfra2w6k3 on" id="cyfra2w6k3"></div>
+            <div class="kropka cyfra2w6k4 on" id="cyfra2w6k4"></div>
+
+            <div class="kropka dwukropek1 on"></div>
+            <div class="kropka dwukropek2 on"></div>
+
+            <div class="kropka cyfra3w0k0 on" id="cyfra3w0k0"></div>
+            <div class="kropka cyfra3w0k1 on" id="cyfra3w0k1"></div>
+            <div class="kropka cyfra3w0k2 on" id="cyfra3w0k2"></div>
+            <div class="kropka cyfra3w0k3 on" id="cyfra3w0k3"></div>
+            <div class="kropka cyfra3w0k4 on" id="cyfra3w0k4"></div>
+
+            <div class="kropka cyfra3w1k0 on" id="cyfra3w1k0"></div>
+            <div class="kropka cyfra3w1k1 on" id="cyfra3w1k1"></div>
+            <div class="kropka cyfra3w1k2 on" id="cyfra3w1k2"></div>
+            <div class="kropka cyfra3w1k3 on" id="cyfra3w1k3"></div>
+            <div class="kropka cyfra3w1k4 on" id="cyfra3w1k4"></div>
+
+            <div class="kropka cyfra3w2k0 on" id="cyfra3w2k0"></div>
+            <div class="kropka cyfra3w2k1 on" id="cyfra3w2k1"></div>
+            <div class="kropka cyfra3w2k2 on" id="cyfra3w2k2"></div>
+            <div class="kropka cyfra3w2k3 on" id="cyfra3w2k3"></div>
+            <div class="kropka cyfra3w2k4 on" id="cyfra3w2k4"></div>
+
+            <div class="kropka cyfra3w3k0 on" id="cyfra3w3k0"></div>
+            <div class="kropka cyfra3w3k1 on" id="cyfra3w3k1"></div>
+            <div class="kropka cyfra3w3k2 on" id="cyfra3w3k2"></div>
+            <div class="kropka cyfra3w3k3 on" id="cyfra3w3k3"></div>
+            <div class="kropka cyfra3w3k4 on" id="cyfra3w3k4"></div>
+
+            <div class="kropka cyfra3w4k0 on" id="cyfra3w4k0"></div>
+            <div class="kropka cyfra3w4k1 on" id="cyfra3w4k1"></div>
+            <div class="kropka cyfra3w4k2 on" id="cyfra3w4k2"></div>
+            <div class="kropka cyfra3w4k3 on" id="cyfra3w4k3"></div>
+            <div class="kropka cyfra3w4k4 on" id="cyfra3w4k4"></div>
+
+            <div class="kropka cyfra3w5k0 on" id="cyfra3w5k0"></div>
+            <div class="kropka cyfra3w5k1 on" id="cyfra3w5k1"></div>
+            <div class="kropka cyfra3w5k2 on" id="cyfra3w5k2"></div>
+            <div class="kropka cyfra3w5k3 on" id="cyfra3w5k3"></div>
+            <div class="kropka cyfra3w5k4 on" id="cyfra3w5k4"></div>
+
+            <div class="kropka cyfra3w6k0 on" id="cyfra3w6k0"></div>
+            <div class="kropka cyfra3w6k1 on" id="cyfra3w6k1"></div>
+            <div class="kropka cyfra3w6k2 on" id="cyfra3w6k2"></div>
+            <div class="kropka cyfra3w6k3 on" id="cyfra3w6k3"></div>
+            <div class="kropka cyfra3w6k4 on" id="cyfra3w6k4"></div>
+
+            <div class="kropka cyfra4w0k0 on" id="cyfra4w0k0"></div>
+            <div class="kropka cyfra4w0k1 on" id="cyfra4w0k1"></div>
+            <div class="kropka cyfra4w0k2 on" id="cyfra4w0k2"></div>
+            <div class="kropka cyfra4w0k3 on" id="cyfra4w0k3"></div>
+            <div class="kropka cyfra4w0k4 on" id="cyfra4w0k4"></div>
+
+            <div class="kropka cyfra4w1k0 on" id="cyfra4w1k0"></div>
+            <div class="kropka cyfra4w1k1 on" id="cyfra4w1k1"></div>
+            <div class="kropka cyfra4w1k2 on" id="cyfra4w1k2"></div>
+            <div class="kropka cyfra4w1k3 on" id="cyfra4w1k3"></div>
+            <div class="kropka cyfra4w1k4 on" id="cyfra4w1k4"></div>
+
+            <div class="kropka cyfra4w2k0 on" id="cyfra4w2k0"></div>
+            <div class="kropka cyfra4w2k1 on" id="cyfra4w2k1"></div>
+            <div class="kropka cyfra4w2k2 on" id="cyfra4w2k2"></div>
+            <div class="kropka cyfra4w2k3 on" id="cyfra4w2k3"></div>
+            <div class="kropka cyfra4w2k4 on" id="cyfra4w2k4"></div>
+
+            <div class="kropka cyfra4w3k0 on" id="cyfra4w3k0"></div>
+            <div class="kropka cyfra4w3k1 on" id="cyfra4w3k1"></div>
+            <div class="kropka cyfra4w3k2 on" id="cyfra4w3k2"></div>
+            <div class="kropka cyfra4w3k3 on" id="cyfra4w3k3"></div>
+            <div class="kropka cyfra4w3k4 on" id="cyfra4w3k4"></div>
+
+            <div class="kropka cyfra4w4k0 on" id="cyfra4w4k0"></div>
+            <div class="kropka cyfra4w4k1 on" id="cyfra4w4k1"></div>
+            <div class="kropka cyfra4w4k2 on" id="cyfra4w4k2"></div>
+            <div class="kropka cyfra4w4k3 on" id="cyfra4w4k3"></div>
+            <div class="kropka cyfra4w4k4 on" id="cyfra4w4k4"></div>
+
+            <div class="kropka cyfra4w5k0 on" id="cyfra4w5k0"></div>
+            <div class="kropka cyfra4w5k1 on" id="cyfra4w5k1"></div>
+            <div class="kropka cyfra4w5k2 on" id="cyfra4w5k2"></div>
+            <div class="kropka cyfra4w5k3 on" id="cyfra4w5k3"></div>
+            <div class="kropka cyfra4w5k4 on" id="cyfra4w5k4"></div>
+
+            <div class="kropka cyfra4w6k0 on" id="cyfra4w6k0"></div>
+            <div class="kropka cyfra4w6k1 on" id="cyfra4w6k1"></div>
+            <div class="kropka cyfra4w6k2 on" id="cyfra4w6k2"></div>
+            <div class="kropka cyfra4w6k3 on" id="cyfra4w6k3"></div>
+            <div class="kropka cyfra4w6k4 on" id="cyfra4w6k4"></div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
