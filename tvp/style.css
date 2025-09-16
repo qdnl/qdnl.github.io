@@ -20,7 +20,6 @@ body {
     margin-bottom: 0.55vmin;
     position: relative;
     display: grid;
-    place-content: center;
     place-items: center;
 }
 
@@ -166,4 +165,5 @@ body {
     visibility: hidden;
      opacity: 0;
 }
+
 
