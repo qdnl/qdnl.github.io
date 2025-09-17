@@ -20,6 +20,7 @@ body {
     margin-bottom: 0.55vmin;
     position: relative;
     display: grid;
+    /*place-content: center;*/
     place-items: center;
 }
 
@@ -31,10 +32,10 @@ body {
     justify-content: center;
     height: 100%;
     width: 100%;
-    /*background-color: fuchsia;*/
     grid-row: 1;
     grid-column: 1;
     transform-origin: 50% 50%;
+    
     /*KROPKI OZNACZAJĄCE SEKUNDY*/
     &.kropka1	{rotate: 6deg;}
     &.kropka2	{rotate: 12deg;}
@@ -166,4 +167,6 @@ body {
      opacity: 0;
 }
 
-
+path {
+	fill: #b3b45b;
+}
